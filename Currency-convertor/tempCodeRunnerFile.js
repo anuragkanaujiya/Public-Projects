@@ -1,0 +1,1 @@
+console.error("There was a problem fetching the currency data:", error);

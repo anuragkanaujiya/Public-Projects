@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="currency.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h2 class="heading">
+                Currency Convertor
+            </h2>
+            <form action="">
+                <div class="amount">
+                    <p class="p-1">
+                        Enter Amount
+                    </p>
+                    <input type="number" placeholder="Enter Amount" class="input-amount">
+                </div>
+                <div class="exchange">
+                    <div class="from">
+                        <img src="https://flagsapi.com/US/flat/64.png" class="flag">
+                        <select name="from" id="From"class="dropdown">
+                        </select>
+                    </div>
+                    <img src="icons8-data-transfer-50.png" class="icon" alt="">
+                    <div class="to">
+                        <img src="https://flagsapi.com/IN/flat/64.png" class="flag">
+                        <select name="to" id="To" class="dropdown">
+                        </select>
+                    </div>
+                </div>
+                <div class="result">
+                    <p class="p-2">
+                        RESULT:
+                    </p>
+                    <button>Get Exchange Rate</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="currency.js"></script>
+</body>
+
+</html>

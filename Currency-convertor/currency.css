@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Uchen", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #d19fffec 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* margin:auto; */
+    /* flex-direction: column; */
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: #ffffff;
+    /* background-color: white; */
+    padding: 5rem 4rem;
+    padding-bottom: 4rem;
+    box-shadow: 0 0 10px 5px rgba(129, 129, 129, 0.469);
+    outline: 1px solid rgb(161, 161, 161);
+    border-radius: 5px;
+}
+.input-amount{
+    padding: 0.5rem 0.6rem;
+    border-radius: 5px;
+    border: 1px solid rgba(142, 142, 142, 0.828);
+    
+}
+.p-1{
+    font-size: 0.8rem;
+    padding: 0 6px;
+    margin-bottom: 3px;
+}
+.exchange{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 5vh 0;
+
+}
+.icon{
+    width: 1.3vw;
+}
+.flag{
+    width: 3.2vw;
+    min-width: 2rem;
+    margin-right: 8px;
+}
+.to select ,.from select{
+    /* background-color: #cfe0f023; */
+    border: none;
+    width: 100%;
+    appearance: none;
+    padding: 0.5rem 0.8rem;
+    /* background-repeat: no-repeat; */
+}
+.from,.to{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(142, 142, 142, 0.828);
+    padding: 0rem 0.5rem;
+    border-radius: 0.6rem;
+    max-width: 10rem;
+    /* text-transform: capitalize; */
+
+}
+.result button{
+    /* padding:1vh 15vh ; */
+    width: 100%;
+    height: 2rem;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+    background-color: rgb(145, 41, 93);
+    color: aliceblue;
+    border: none;
+    font-family: 'Arial', sans-serif;
+    border-radius: 5px;
+}
+.p-2{
+    font-family:serif;
+}
