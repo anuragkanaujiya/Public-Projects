@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>BMI</h1>
+        <h3>The Body Mass Index</h3>
+        <div class="main">
+           <div class="form">
+             <form id="myForm">
+                <p>
+                    <label for="height">
+                        Height:
+                    </label>
+                    <input type="text" id="height" placeholder="Height in meter">
+                </p>
+                <p>
+                    <label for="weight">
+                        Weight:
+                    </label>
+                    <input type="text" id="weight" placeholder="Weight in kg.">
+                </p>
+                <button type="submit" id="Calculate">Calculate</button>
+                <div class="result">
+                    <h3 class="ans">
+                        Result:
+                    </h3>
+                </div>
+            </form>
+           </div>
+            <div class="contain">
+                <div class="show">
+                    <h1>Your Health</h1>
+                    <p class="show-p">
+                    </p>
+                </div>
+                <div class="meter">
+                    <div class="labels">
+                        <span style="left: 10%;">17</span>
+                        <span style="left: 15%;">18.5</span>
+                        <span style="left: 44%;">25</span>
+                        <span style="left: 55%;">30</span>
+                        <span style="left: 66%;">35</span>
+                        <span style="left: 80%;">40</span>
+                        <span>16</span>
+                    </div>
+                </div>
+                <div class="niddle">
+                    <div class="needle"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>BMI Range</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Less than 16</td>
+                        <td>Severe Thinness</td>
+                    </tr>
+                    <tr>
+                        <td>16 – 17</td>
+                        <td>Moderate Thinness</td>
+                    </tr>
+                    <tr>
+                        <td>17 – 18.5</td>
+                        <td>Mild Thinness</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 – 25</td>
+                        <td>Normal</td>
+                    </tr>
+                    <tr>
+                        <td>25 – 30</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30 – 35</td>
+                        <td>Obese Class I</td>
+                    </tr>
+                    <tr>
+                        <td>35 – 40</td>
+                        <td>Obese Class II</td>
+                    </tr>
+                    <tr>
+                        <td>More than 40</td>
+                        <td>Obese Class III</td>
+                    </tr>
+                </tbody>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
